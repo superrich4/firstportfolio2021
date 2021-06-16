@@ -7,6 +7,7 @@
 .graphic_menu li{float: left;margin-right: 50px;}
 .graphic_menu li:last-child{margin-right: 0;}
 .graphic_menu:after{display: block;content: "";clear: both}
+.graphic_menu li img:nth-child(1):hover{transform: scale(1.1); transition: all 0.5s;}
 
 .backcol{background-color: #F8F8F8}
 .sub_top {height: 130px;}
