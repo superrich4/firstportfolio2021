@@ -1,5 +1,6 @@
 .shortcut{position: absolute;top:72%;right: 16%;border: 1px solid #fcfcfc ;width:200px;height: 50px;line-height: 50px;text-align: center;background-color: #C1CDFC;border-radius: 50px}
 .shortcut p{font-size: 20px;color: #000;font-weight: bold}
+.shortcut:hover{transform: translateY(-8px)}
 
 
 .graphic_menu{width: 55%; margin: 0 auto;padding-top: 190px;}
