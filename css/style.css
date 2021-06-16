@@ -253,7 +253,7 @@
 .section4_txt_left a:nth-child(2) img:hover{transform: translateY(-8px); transition: all 0.5s;}
 .section4_txt_left a:nth-child(3) img:hover{transform: translateY(-8px); transition: all 0.5s;}
 
-.arrow_set:hover{transform: scale(1.1)}
+.arrow_set:hover{transform: scale(1.1);transition: all 0.5s;}
 
 /*메인배경화면애니메이션*/
 /*** ----------------------------------------
