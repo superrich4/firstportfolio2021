@@ -1,6 +1,6 @@
 .shortcut{position: absolute;top:72%;right: 16%;border: 1px solid #fcfcfc ;width:200px;height: 50px;line-height: 50px;text-align: center;background-color: #C1CDFC;border-radius: 50px}
 .shortcut p{font-size: 20px;color: #000;font-weight: bold}
-.shortcut:hover{transform: translateY(-8px)}
+.shortcut:hover{transform: translateY(-8px); transition: all 0.5s;}
 
 
 .graphic_menu{width: 55%; margin: 0 auto;padding-top: 190px;}
@@ -17,10 +17,10 @@
 .sub_top ul li:nth-child(3){left: 18%;top: 45%;}
 .sub_top ul li:nth-child(4){left: 18%;top: 60%;}
 .sub_top ul:after{display: block;content: "";clear: both}
-.sub_top ul li:nth-child(1):hover{transform: translateX(8px)}
-.sub_top ul li:nth-child(2):hover{transform: translateX(8px)}
-.sub_top ul li:nth-child(3):hover{transform: translateX(8px)}
-.sub_top ul li:nth-child(4):hover{transform: translateX(8px)}
+.sub_top ul li:nth-child(1):hover{transform: translateX(8px); transition: all 0.5s;}
+.sub_top ul li:nth-child(2):hover{transform: translateX(8px); transition: all 0.5s;}
+.sub_top ul li:nth-child(3):hover{transform: translateX(8px); transition: all 0.5s;}
+.sub_top ul li:nth-child(4):hover{transform: translateX(8px); transition: all 0.5s;}
 
 .navbar-fixed-top p{color: #fff;font-size: 16px;font-weight: bold}
 
@@ -163,17 +163,17 @@
 /*profile*/
 
 #slide2{background: rgba(0,0,0,0.5);position: relative}
-.pro_set{position: absolute;left: 2%;top: 17%;}
+.pro_set{position: absolute;left: 13%;top: 17%;}
 
-.pro_set img:nth-child(1){margin-right: 100px;max-width: 30%}
-.pro_set img:nth-child(2){max-width: 25%}
+.pro_set img:nth-child(1){margin-right: 100px;max-width: 35%}
+.pro_set img:nth-child(2){max-width: 35%;padding-top: 30px;}
 
 .pro_set2 img{max-width: 7%;;margin-right: 30px}
 .pro_set2{position: absolute;bottom: 10%;left: 15%}
 
-.pro_set3 img{max-width: 10%;}
-.pro_set3 img:nth-child(1){margin-right:20px}
-.pro_set3{position: absolute;bottom: 25%;left: 17%;}
+.pro_set3 img{max-width: 14%;}
+.pro_set3 img:nth-child(1){margin-right:70px}
+.pro_set3{position: absolute;bottom: 18%;left: 25%;}
 
 
 #slide3{background: rgba(0,0,0,0.7);position: relative;z-index: -2}
@@ -229,10 +229,10 @@
 
 .section3_btn_set{position: absolute;width: 55.4%;left: 0;right: 0;margin: 0 auto; bottom: 30%;}
 .section3_btn_set:after{display: block;content: "";clear: both}
-.section3_btn_set img:nth-child(1):hover{transform: translateY(-8px)}
-.section3_btn_set img:nth-child(2):hover{transform: translateY(-8px)}
-.section3_btn_set img:nth-child(3):hover{transform: translateY(-8px)}
-.section3_btn_set img:nth-child(4):hover{transform: translateY(-8px)}
+.section3_btn_set img:nth-child(1):hover{transform: translateY(-8px);transition: all 0.5s;}
+.section3_btn_set img:nth-child(2):hover{transform: translateY(-8px); transition: all 0.5s;}
+.section3_btn_set img:nth-child(3):hover{transform: translateY(-8px); transition: all 0.5s;}
+.section3_btn_set img:nth-child(4):hover{transform: translateY(-8px); transition: all 0.5s;}
 
 
 
@@ -249,9 +249,9 @@
 .arrow_set{left: 0;right: 0;margin: 0 auto;width: 8%;bottom: 20%;position: absolute}
 .section4_txt_left a:nth-child(1),.section4_txt_left a:nth-child(2){padding-right: 120px;}
 
-.section4_txt_left a:nth-child(1) img:hover{transform: translateY(-8px)}
-.section4_txt_left a:nth-child(2) img:hover{transform: translateY(-8px)}
-.section4_txt_left a:nth-child(3) img:hover{transform: translateY(-8px)}
+.section4_txt_left a:nth-child(1) img:hover{transform: translateY(-8px); transition: all 0.5s;}
+.section4_txt_left a:nth-child(2) img:hover{transform: translateY(-8px); transition: all 0.5s;}
+.section4_txt_left a:nth-child(3) img:hover{transform: translateY(-8px); transition: all 0.5s;}
 
 .arrow_set:hover{transform: scale(1.1)}
 
