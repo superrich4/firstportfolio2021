@@ -576,7 +576,7 @@ nav ul {
       animation-name: move;
       animation-duration: 3s;
       animation-iteration-count: infinite;
-	left: 16%
+	left: 15%
     }
     /* @keyframes rule */
     @keyframes move {
@@ -639,8 +639,10 @@ a.active {
 @media (max-width: 1440px) {
 	.pro_set2{left: 5%}
 	.section2_set{width: 86%}
-	.section4_txt_left a img{max-width: 30%;}
-	.section4_txt_left{width: 60%}
+	.section4_txt_left a img{max-width: 15%;}
+	.section4_txt_left{width: 70%}
+	.section4_txt_left{margin:0}
+	
 
 @media (max-width: 1024px) {
 	.pro_set img{max-width: 40%}
@@ -666,6 +668,23 @@ a.active {
 }
 
 @media (max-width: 768px) {
+	.intro img:nth-child(1){max-width: 50%;top: 40%}
+	.intro img:nth-child(2){max-width: 50%;top: 60%}
+	.fam{left: 13%}
+	.section3_btn_set {width: 70%;top: 50%}
+	.section3_btn_set img{max-width: 50%;padding-bottom: 50px}
+	.section3_txt {width: 80%;top: 20%;margin: 0;left: 5%}
+	.section4_txt {width: 80%;}
+	.section4_txt img{max-width: 100%}
+	.section4_txt_left a:nth-child(1), .section4_txt_left a:nth-child(2){padding-right: 0;}
+	.section4_txt_left{width: 90%;margin: 0 auto;}
+	.section4_txt_left a:nth-child(1) img{margin-right: 10px}
+	.section4_txt_left a:nth-child(2) img{margin-right: 10px}
+	.arrow_set{margin: 0 auto;width: 23%}
+	.section4_txt_left a img{max-width: 30%;}
+	.pro_set{left: 0;top: 24%}
+	.pro_set3{left: 0;bottom: 25%}
+	
     .timeline-event-copy {
         width: 90%;
         left: 2em;
