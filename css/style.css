@@ -1,5 +1,7 @@
+html {font-size: 62.5%}
+
 .shortcut{position: absolute;top:72%;right: 16%;border: 1px solid #fcfcfc ;width:200px;height: 50px;line-height: 50px;text-align: center;background-color: #C1CDFC;border-radius: 50px}
-.shortcut p{font-size: 20px;color: #000;font-weight: bold}
+.shortcut p{font-size: 2.0rem;color: #000;font-weight: bold}
 .shortcut:hover{transform: translateY(-8px); transition: all 0.5s;}
 
 
@@ -23,12 +25,12 @@
 .sub_top ul li:nth-child(3):hover{transform: translateX(8px); transition: all 0.5s;}
 .sub_top ul li:nth-child(4):hover{transform: translateX(8px); transition: all 0.5s;}
 
-.navbar-fixed-top p{color: #fff;font-size: 16px;font-weight: bold}
+.navbar-fixed-top p{color: #fff;font-size: 1.6rem;font-weight: bold}
 
 .row:nth-child(1) {padding-top: 100PX}
 .row-bottom-padded-sm{padding-top: 50px;margin: 0 auto;width: 85.5%}
-.to-animate{font-size: 40px;}
-.to-animate h3{font-size: 30px;padding-top: 20px}
+.to-animate{font-size: 4.0rem;}
+.to-animate h3{font-size: 3.0rem;padding-top: 20px}
 
 .col-md-4:nth-child(6){margin-top: 50px;}
 #fh5co-work {
@@ -37,7 +39,7 @@
 	overflow: hidden;
 	position: relative;
 	color: rgba(255, 255, 255, 0.8);
-	background-color: #f37d6b
+	background-color: #FF7B37
 		/*background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));*/
 		/* Android 2.3 */
@@ -127,14 +129,14 @@
 }
 
 #fh5co-work .fh5co-project-item .fh5co-text h2 {
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: bold;
 	margin: 0;
 }
 
 #fh5co-work .fh5co-project-item .fh5co-text span {
 	color: #b3b3b3;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
@@ -178,7 +180,7 @@
 
 
 #slide3{background: rgba(0,0,0,0.7);position: relative;z-index: -2}
-.main_left p{font-size: 16px;text-align: left;}
+.main_left p{font-size: 1.6rem;text-align: left;}
 .main_left {position: absolute;top: 35%;left: 20%}
 .main_right{position: absolute;right: 13%;top: 25%;max-width: 40%;z-index: -1}
 .main_right img{max-width: 90%;}
@@ -194,8 +196,8 @@
 /*슬라이드`1*/
 .intro img:nth-child(1){max-width: 10%;position: absolute;left: 3%;bottom: 45%;}
 .intro img:nth-child(2){max-width: 10%;position: absolute;left: 3%;bottom:38%;}
-#slide1 h1{text-align-last: center;font-size: 50px;}
-#section1 h2{font-size: 50px;color: #fff;text-align: left;margin-bottom: 15%}
+#slide1 h1{text-align-last: center;font-size: 5.0rem;}
+#section1 h2{font-size: 5.0rem;color: #fff;text-align: left;margin-bottom: 15%}
 
 #section1{background-image: url(../img/home-bg-2.png);background-size: cover;color: #fff;}
 .section{
@@ -205,12 +207,12 @@
 #section1 h1{color: #fff;}
 /*2-1*/
 .section2_set:after{display: block;content: "";clear: both}
-.section2_set{margin: 0 auto;width: 58%}
+.section2_set{margin: 0 auto;width: 70%}
 .section2_left{float: left}
 .section2_left img:nth-child(1){padding-bottom: 75px}
-.section2_right{float: left;padding-left: 50px;}
-.section2_right p{line-height: 40px;text-align: left;font-size: 16px}
-.section2_right span{font-size: 32px;}
+.section2_right{float: left;padding-left: 150px;}
+.section2_right p{line-height: 40px;text-align: left;font-size: 1.6rem}
+.section2_right span{font-size: 3.2rem;}
 
 #section2 .container:after{display: block;content: "";clear: both}
 #section2 {background-image: url(../img/home-bg-2-2.png);background-size: cover;
@@ -238,7 +240,7 @@
 
 
 /*4page*/
-#section4 .portinner h2{color: #fff;font-size: 100px;text-align: left;padding-bottom: 80px}
+#section4 .portinner h2{color: #fff;font-size: 10.0rem;text-align: left;padding-bottom: 80px}
 #section4 .portinner{color: #fff;padding-left: 200px;margin-top: 0;}
 #section4 .portinner p{line-height: 80px;}
 
@@ -289,7 +291,7 @@
 .sub_intro img:nth-child(2){max-width: 40%;;position: absolute;left: 5%;top: 50%;}
 .col-md-4{margin-top: 30px;}
 .sub_intro2{width: 90%;background-color: #fff;;position: absolute;top: 25%;left: 10%;right: 0;margin: 0 auto;}
-#sub_list li{float: left;color: #fff;font-weight: bold;font-size: 30px;padding-right: 30px;margin-bottom: 30px;}
+#sub_list li{float: left;color: #fff;font-weight: bold;font-size: 3.0rem;padding-right: 30px;margin-bottom: 30px;}
 #sub_list a{color: #000}
 #sub_list:after{display: block;content: "";clear: both}
 #sub_list{position: absolute;top: 0%;left: 14%}
@@ -394,12 +396,12 @@ font-family: 'Open Sans', sans-serif;
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24px;
 }
 
 .size-50 {
-    font-size: 50px;
+    font-size: 5.0rem;
     line-height: 50px
 }
 
@@ -567,26 +569,29 @@ nav ul {
 	
 }
 .fam{
-	color: #333;
-	padding: 5px;
-	font-size: 2rem;
-	background-color: rgb(255,255,255,0.5);
+	width: 10%;
+	height: 90px;
+	margin-top: 10px;;
       position: absolute;
       height: 30px;
       animation-name: move;
       animation-duration: 3s;
       animation-iteration-count: infinite;
-	left: 15%
+	
+	left: 17%;
     }
+.fam img{max-width: 100%;}
+
     /* @keyframes rule */
     @keyframes move {
       /* keyframe */
       from {
-        bottom: 100px;
+        bottom: 60px;
+        bottom: 60px;
       }
       /* keyframe */
       to {
-        bottom: 70px;
+        bottom: 30px;
 	
       }
 		
@@ -601,9 +606,12 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 1.6rem;
+	padding-right: 20px;
+    
 }
+
+nav li a:nth-child(1):hover{color: #FF7B37}
 
 .bg-nav {
     background: rgba(0,0,0,0.5);
@@ -649,7 +657,7 @@ a.active {
 	.section2_right{width: 50%}
 	.sectin2_left{width: 50%}
 	.section2_left img{max-width: 70%;}
-	.section2_right p{font-size: 16px}
+	.section2_right p{font-size: 1.6rem}
 	.section2_set{width: 100%;}
 }
 @media (max-width: 991px) {
@@ -712,6 +720,6 @@ a.active {
         margin: 6px;
     }
     nav li a {
-        font-size: 10px;
+        font-size: 1.0rem;
     }
 }
