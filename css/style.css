@@ -1,6 +1,38 @@
+/*햄버거 메뉴*/
+
+.mob_menu{display: none}
+input[id="menuicon"] {display:none;}
+input[id="menuicon"] + label {display:block;margin:30px;width:30px;height:25px;position:relative;cursor:pointer;}
+input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:5px;border-radius:30px;background:#eee;transition:all .35s;}
+input[id="menuicon"] + label span:nth-child(1) {top:0;}
+input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);} /* ºñ½ÁÇÏ°Ô »ç¿ëÇÒ ¼ö ÀÖ´Â style top:calc(50% - 2.5px); margin-top:-2.5px;*/
+input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+input[id="menuicon"]:checked + label {z-index:2;}
+input[id="menuicon"]:checked + label span {background:#fff;}
+input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+div[class="sidebar"] {width:300px;height:100%;background:#222;position:fixed;top:0;left:-300px;z-index:1;transition:all .35s;}
+input[id="menuicon"]:checked + label + div {left:0;}
+
+.sidebar ul{padding-top: 120px}
+.sidebar ul li{color: #eee;font-size: 3.2rem;padding-bottom: 30px;}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
 html {font-size: 62.5%}
 
-.shortcut{position: absolute;top:72%;right: 16%;border: 1px solid #fcfcfc ;width:230px;height: 50px;line-height: 50px;text-align: center;background-color: #C1CDFC;border-radius: 50px}
+.shortcut{border: 1px solid #fcfcfc ;width:16%;height: 50px;line-height: 50px;text-align: center;background-color: #C1CDFC;border-radius: 50px;margin-left: 69%;}
 .shortcut p{font-size: 2.0rem;color: #000;font-weight: bold}
 .shortcut:hover{transform: translateY(-8px); transition: all 0.5s;}
 .shortcut img{max-width: 20%}
@@ -168,8 +200,8 @@ html {font-size: 62.5%}
 #slide2{background: rgba(0,0,0,0.5);position: relative}
 .intro2{position: relative;width: 100%;height: 100%;}
 
-.pro_set img:nth-child(1){position: absolute;left:6%;top: 10%}
-.pro_set img:nth-child(2){position: absolute;left: 10%;bottom: 10%}
+.pro_set img:nth-child(1){position: absolute;left:0;right: 0;margin:0 auto;top: 10%;width: 90%;}
+.pro_set img:nth-child(2){position: absolute;left:0;right: 0;margin: 0 auto;bottom: 0%;width: 90%}
 
 
 #slide3{background: rgba(0,0,0,0.7);position: relative;z-index: -2}
@@ -283,10 +315,10 @@ html {font-size: 62.5%}
 #section4{background-image: url(../img/home-bg-2-2.png);background-size: cover}
 
 /*section4*/
-.section4_txt {position: absolute;right: 0;left: 0;margin: 0 auto;top: 20%;}
-.section4_txt_left{position: absolute;right: 0;left: 0;margin: 0 auto; top: 45%;}
+.section4_txt {position: absolute;right: 0;left: 0;margin: 0 auto;top: 20%;text-align: center}
+.section4_txt_left{position: absolute;right: 0;left: 0;margin: 0 auto; top: 45%;text-align: center}
 .arrow_set{left: 0;right: 0;margin: 0 auto;width: 8%;bottom: 20%;position: absolute}
-.section4_txt_left img{max-width: 10%}
+
 .section4_txt_left a:nth-child(1),.section4_txt_left a:nth-child(2){padding-right: 50px;}
 
 .section4_txt_left a:nth-child(1) img:hover{transform: translateY(-8px); transition: all 0.5s;}
@@ -606,7 +638,7 @@ nav ul {
 	
 }
 
-
+.mob_shortcut{display: none}
 
 .fam{
 	width: 10%;
@@ -653,13 +685,6 @@ nav li a {
 
 nav li a:nth-child(1):hover{color: #FF7B37}
 
-.bg-nav {
-    background: rgba(0,0,0,0.5);
-}
-
-.bg-nav ul {
-    padding: 10px;
-}
 
 a:focus {
     color: #fff;
@@ -692,17 +717,23 @@ a.active {
 	.section4_txt img{max-width: 70%}
 	.section4_txt_left{top: 50%}
 	.section4_txt_left img{max-width: 10%}
-	.arrow_set{bottom: 15%}
-	.icando{left: 35%}
+	.arrow_set{bottom: 15%;text-align: center}
 	.section3_btn_set{width: 70%;right: 0;}
 	.section3_btn_set img{max-width: 20%;}
+	.sub_top ul li:nth-child(1),.sub_top ul li:nth-child(2),.sub_top ul li:nth-child(3),.sub_top ul li:nth-child(4){left: 0%}
+	#apple_pc{margin-left: 40%}
+	.shortcut{margin-left: 52%}
 	
-
+	.sub_top img{max-width: 70%;}
+	@media (max-width: 1200px) {
+		.shortcut {width: 18%}
+		.shortcut a p {font-size: 1.6rem}
+	}
 @media (max-width: 1024px) {
+	
 	.pro_set img{max-width: 40%}
 	.section2_right{width: 50%}
 	.sectin2_left{width: 50%}
-	.section2_left img{max-width: 70%;}
 	.section2_right p{font-size: 1.6rem}
 	.section2_set{width: 100%;}
 	.section3_txt {width: 70%;left: 0;right: 0;margin: 0 auto;top: 30%}
@@ -711,11 +742,15 @@ a.active {
 	.section4_txt_left{top: 45%}
 	.section4_txt_left img{max-width: 16%;}
 	.icando{left: 18%}
-	.section2_left{left: 55%;}
 	.section3_txt {top: 20%}
-	.section3_btn_set {width: 52%;top: 50%;left: 0;right: 0;margin: 0 auto;}
-	.section3_btn_set img{max-width: 50%;padding-bottom: 50px}
-
+	.section3_btn_set {text-align: center;top: 50%;left: 0;right: 0;margin: 0 auto;}
+	.section3_btn_set img{max-width: 100%;padding-bottom: 50px}
+	.section2_left{display: none}
+	.section2_right{left: 15%}
+	.sub_top ul li:nth-child(1){left: 18%;top: 15%;}
+.sub_top ul li:nth-child(2){left: 18%;top: 25%;}
+.sub_top ul li:nth-child(3){left: 18%;top: 40%;}
+.sub_top ul li:nth-child(4){left: 18%;top: 55%;}
 }
 @media (max-width: 991px) {
 		.section2_left img{max-width: 90%;}
@@ -730,14 +765,31 @@ a.active {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+	
+		.shortcut a p {font-size: 1.4rem}
 }
 
 @media (max-width: 768px) {
+	.side_btn li img{max-width: 70%}
+	.side_btn {position: relative;width: 100%;text-align: center}
+	.side_btn li:nth-child(1) img{position: absolute;top: 100px;left: 40px;}
+	.side_btn li:nth-child(2) img{position: absolute;top: 200px;left: 40px;}
+	.side_btn li:nth-child(3) img{position: absolute;top: 300px;left: 40px;}
+	.side_btn li:nth-child(4) img{position: absolute;top: 400px;left: 40px;}
+	.fam img{padding-left: 70px}
+	.fam img{left: 50%}
+	.mob_menu{display: block}
+	.sub_nav {display: none}
+	.mob_shortcut{display: block;border: 1px}
+	.shortcut{position : absolute;width: 22%;right: 10%;margin-top: 5%}
+	.sub_top{display: none}
+	.sub_main{display: none}
+	
 	.section2_left{display: none}
 	.intro img:nth-child(2){max-width: 50%;top: 60%}
 	.fam{left: 13%}
 	.section3_btn_set {width: 70%;top: 50%}
-	.section3_btn_set img{max-width: 50%;padding-bottom: 50px}
+	.section3_btn_set img{max-width: 50%;padding-bottom: 50px;}
 	.section3_txt {width: 70%;top: 20%;left: 5%}
 	.section4_txt {width: 80%;}
 	.section4_txt img{max-width: 100%}
@@ -749,6 +801,8 @@ a.active {
 	.section4_txt_left img{max-width: 23%;}
 	.pro_set{left: 0;top: 24%}
 	.pro_set3{left: 0;bottom: 25%}
+	.section3_btn_set{width: 60%;left: 0;right: 0;margin: 0 auto;text-align: center;top: 40%}
+	.section3_btn_set img{max-width: 80%;padding-bottom: 10px;margin: 0;}
 	
     .timeline-event-copy {
         width: 90%;
@@ -782,8 +836,6 @@ a.active {
 	.icando img{max-width: 100%}
 	.section2_right p {font-size: 1.6rem}
 	.section2_right span{font-size: 2.4rem}
-	.section3_btn_set{width: 60%;left: 0;right: 0;margin: 0 auto;text-align: center;top: 40%}
-	.section3_btn_set img{max-width: 80%;padding-bottom: 10px;margin: 0;}
 	
 @media (max-width: 420px) {
     nav li {
