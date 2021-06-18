@@ -198,7 +198,7 @@ html {font-size: 62.5%}
 #section1 h2{font-size: 5.0rem;color: #fff;text-align: left;margin-bottom: 15%}
 
 #section1{background-image: url(../img/home-bg-2.png);background-size: cover;color: #fff;}
-.section{
+#section1,#section2,#section3,#section4{
 	-webkit-animation: bg-pan-top 5s infinite alternate both;
 	        animation: bg-pan-top 5s infinite alternate both;
 }
@@ -242,8 +242,8 @@ html {font-size: 62.5%}
 .section2_left{position: absolute; right: 15%;top: 40%;}
 
 .section2_right{position: absolute;top: 30%;left: 18%}
-.section2_right p{color: #222;font-weight: 500}
-.section2_right p span{color: #111}
+.section2_right p{color: #eee;font-weight: 500}
+.section2_right p span{color: #eee}
 
 .section2_set{margin: 0 auto;width: 70%}
 .section2_right p{line-height: 40px;text-align: left;font-size: 1.6rem}
