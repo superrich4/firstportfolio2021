@@ -692,7 +692,7 @@ a.active {
 	.section4_txt img{max-width: 90%}
 	.section4_txt_left img{max-width: 60%}
 	.icando{left: 35%}
-	.section3_btn_set{width: 80%;}
+	.section3_btn_set{width: 70%;right: 0;}
 	.section3_btn_set img{max-width: 20%;}
 
 @media (max-width: 1024px) {
