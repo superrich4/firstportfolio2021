@@ -689,11 +689,14 @@ a.active {
 @media (max-width: 1440px) {
 	.pro_set2{left: 5%}
 	.section2_set{width: 86%}
-	.section4_txt img{max-width: 90%}
-	.section4_txt_left img{max-width: 60%}
+	.section4_txt img{max-width: 70%}
+	.section4_txt_left{top: 50%}
+	.section4_txt_left img{max-width: 10%}
+	.arrow_set{bottom: 15%}
 	.icando{left: 35%}
 	.section3_btn_set{width: 70%;right: 0;}
 	.section3_btn_set img{max-width: 20%;}
+	
 
 @media (max-width: 1024px) {
 	.pro_set img{max-width: 40%}
@@ -704,7 +707,15 @@ a.active {
 	.section2_set{width: 100%;}
 	.section3_txt {width: 70%;left: 0;right: 0;margin: 0 auto;top: 30%}
 	.section3_btn_set{bottom: 20%;left: 0;right: 0;margin : 0 auto;top: 55%}
-	
+		.arrow_set{bottom: 15%;left: 0;right: 0;margin: 0 auto;width: 20%}
+	.section4_txt_left{top: 45%}
+	.section4_txt_left img{max-width: 16%;}
+	.icando{left: 18%}
+	.section2_left{left: 55%;}
+	.section3_txt {top: 20%}
+	.section3_btn_set {width: 52%;top: 50%;left: 0;right: 0;margin: 0 auto;}
+	.section3_btn_set img{max-width: 50%;padding-bottom: 50px}
+
 }
 @media (max-width: 991px) {
 		.section2_left img{max-width: 90%;}
@@ -722,7 +733,7 @@ a.active {
 }
 
 @media (max-width: 768px) {
-	
+	.section2_left{display: none}
 	.intro img:nth-child(2){max-width: 50%;top: 60%}
 	.fam{left: 13%}
 	.section3_btn_set {width: 70%;top: 50%}
@@ -735,7 +746,7 @@ a.active {
 	.section4_txt_left a:nth-child(1) img{margin-right: 10px}
 	.section4_txt_left a:nth-child(2) img{margin-right: 10px}
 	.arrow_set{margin: 0 auto;width: 23%}
-	.section4_txt_left a img{max-width: 30%;}
+	.section4_txt_left img{max-width: 23%;}
 	.pro_set{left: 0;top: 24%}
 	.pro_set3{left: 0;bottom: 25%}
 	
@@ -748,6 +759,7 @@ a.active {
 }
 
 @media (max-width: 500px) {
+	
 	.intro img:nth-child(2){max-width: 50%}
     #home,
     .disply-table {
@@ -760,8 +772,19 @@ a.active {
         list-style: none;
         margin: 10px 0;
     }
-}
-
+	.section4_txt {width: 90%}
+	.section4_txt_left{top: 70%}
+	.arrow_set{bottom: 35%;width: 50%}
+	.intro img:nth-child(1){width: 25%;top: 20%;left: 4%}
+	.intro p{text-align: center;left: 0;bottom: 30%;background: rgba(0,0,0,0.77)}
+	.fam{display: none}
+	.icando{left: 0;right: 0;margin: 0 auto;width: 80%;top: 13%}
+	.icando img{max-width: 100%}
+	.section2_right p {font-size: 1.6rem}
+	.section2_right span{font-size: 2.4rem}
+	.section3_btn_set{width: 60%;left: 0;right: 0;margin: 0 auto;text-align: center;top: 40%}
+	.section3_btn_set img{max-width: 80%;padding-bottom: 10px;margin: 0;}
+	
 @media (max-width: 420px) {
     nav li {
         margin: 6px;
@@ -769,4 +792,17 @@ a.active {
     nav li a {
         font-size: 1.0rem;
     }
+	.intro p{font-size: 1.4rem}
+	.section2_right{top: 30%}
+	.section2_right p{font-size: 1.4rem}
+	
 }
+	
+	
+	
+	@media (max-width: 370px) {
+		.intro p{font-size: 1.2rem}
+			.section2_right p{font-size: 1.2rem}
+		
+
+	}
