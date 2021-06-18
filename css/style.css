@@ -250,7 +250,7 @@ html {font-size: 62.5%}
 .section2_right span{font-size: 3.2rem;}
 
 #section2 .container:after{display: block;content: "";clear: both}
-#section2 {background-image: url(../img/home-bg-2-2.png);background-size: cover;
+#section2 {background-image: url(../img/bg3.png);background-size: cover;
 	color: #fff}
 /*3page*/
 
@@ -266,7 +266,7 @@ html {font-size: 62.5%}
 .section3_btn_set a img{;margin-left: 30px;}
 .section3_btn_set img:nth-child(1){margin-left: 0}
 
-.section3_btn_set{position: absolute;width: 55.4%;right: 5%;bottom: 15%;}
+.section3_btn_set{position: absolute;;right: 5%;bottom: 15%;}
 .section3_btn_set:after{display: block;content: "";clear: both}
 .section3_btn_set img:nth-child(1):hover{transform: translateY(-8px);transition: all 0.5s;}
 .section3_btn_set img:nth-child(2):hover{transform: translateY(-8px); transition: all 0.5s;}
@@ -280,10 +280,10 @@ html {font-size: 62.5%}
 #section4 .portinner{color: #fff;padding-left: 200px;margin-top: 0;}
 #section4 .portinner p{line-height: 80px;}
 
-#section4{background-image: url(../img/bg3.png);background-size: cover}
+#section4{background-image: url(../img/home-bg-2-2.png);background-size: cover}
 
 /*section4*/
-.section4_txt {position: absolute;right: 0;left: 0;margin: 0 auto; width: 55%;;top: 20%;}
+.section4_txt {position: absolute;right: 0;left: 0;margin: 0 auto;top: 20%;}
 .section4_txt_left{position: absolute;right: 0;left: 0;margin: 0 auto; top: 45%;}
 .arrow_set{left: 0;right: 0;margin: 0 auto;width: 8%;bottom: 20%;position: absolute}
 .section4_txt_left img{max-width: 10%}
@@ -684,14 +684,16 @@ a.active {
 
 /* Responsive media queries
 ==================================================*/
+@media(max-width:1920px){
+}
 @media (max-width: 1440px) {
 	.pro_set2{left: 5%}
 	.section2_set{width: 86%}
-	.section4_txt_left a img{max-width: 15%;}
-	.section4_txt_left{width: 70%}
-	.section4_txt_left{margin:0}
+	.section4_txt img{max-width: 90%}
+	.section4_txt_left img{max-width: 60%}
 	.icando{left: 35%}
-	
+	.section3_btn_set{width: 80%;}
+	.section3_btn_set img{max-width: 20%;}
 
 @media (max-width: 1024px) {
 	.pro_set img{max-width: 40%}
@@ -700,6 +702,9 @@ a.active {
 	.section2_left img{max-width: 70%;}
 	.section2_right p{font-size: 1.6rem}
 	.section2_set{width: 100%;}
+	.section3_txt {width: 70%;left: 0;right: 0;margin: 0 auto;top: 30%}
+	.section3_btn_set{bottom: 20%;left: 0;right: 0;margin : 0 auto;top: 55%}
+	
 }
 @media (max-width: 991px) {
 		.section2_left img{max-width: 90%;}
