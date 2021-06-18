@@ -236,12 +236,12 @@ html {font-size: 62.5%}
 
 /*2-1*/
 
-.icando{position: absolute;top: 10%;left: 37%;}
+.icando{position: absolute;top: 10%;left: 18%;}
 
 
-.section2_left{position: absolute; right: 15%;top: 40%;}
+.section2_left{position: absolute; left: 40%;top: 33%;}
 
-.section2_right{position: absolute;top: 30%;left: 18%}
+.section2_right{position: absolute;top: 35%;left: 18%}
 .section2_right p{color: #eee;font-weight: 500}
 .section2_right p span{color: #eee}
 
